@@ -1,0 +1,2 @@
+:HL["/simple-photo-app/_next/static/chunks/0792afcb7ad31095.css","style"]
+0:{"buildId":"_-x0nC2nnKKuSHPOMvIK2","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
