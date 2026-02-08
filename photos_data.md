@@ -1,14 +1,15 @@
 # Photo Inventory
 
-The following files are in [public/photos/](public/photos/) directory.  
+The following files are in [public/photos/](public/photos/) directory.
 
-| New Filename                       | Description  (5-8 words)                    | Original Filename |  Size (KB) | Dimensions (px) |
-|------------------------------------|---------------------------------------------|-------------------|-----------:|----------------:|
-| workshop-wood-glue-clamping.jpg    | Clamping a wood glue-up                     | IMG_1530.jpeg     |        534 |     1600 x 1200 |
-| led-light-panel-wiring.jpg         | Wiring RGB LEDs in wooden frame             | IMG_1593.jpeg     |        559 |     1200 x 1600 |
-| led-wire-soldering-closeup.jpg     | Stripped wires in alligator clips           | IMG_1597.jpeg     |        318 |     1200 x 1600 |
-| disco-floor-grid-led-assembly.jpg  | Disco floor grid with LEDs mounted          | IMG_1681.jpeg     |        579 |     1200 x 1600 |
-| disco-floor-lights-hello-world.mov | Disco floor LEDs cycling colors in the dark | IMG_1616.mov      | (7s) 6,284 |      720 x 1280 |
+| New Filename                       | Description  (5-8 words)                    | Original Filename |  Size (KB) | Dimensions (px) | Creation Date             |
+|------------------------------------|---------------------------------------------|-------------------|-----------:|----------------:|---------------------------|
+| workshop-wood-glue-clamping.jpg    | Clamping a wood glue-up                     | IMG_1530.jpeg     |        534 |     1600 x 1200 | 2022:04:22 17:39:46       |
+| led-light-panel-wiring.jpg         | Wiring RGB LEDs in wooden frame             | IMG_1593.jpeg     |        559 |     1200 x 1600 | 2022:04:29 17:05:40       |
+| led-wire-soldering-closeup.jpg     | Stripped wires in alligator clips           | IMG_1597.jpeg     |        318 |     1200 x 1600 | 2022:04:29 17:32:58       |
+| disco-floor-grid-led-assembly.jpg  | Disco floor grid with LEDs mounted          | IMG_1681.jpeg     |        579 |     1200 x 1600 | 2022:05:08 14:28:56       |
+|------------------------------------|---------------------------------------------|-------------------|-----------:|----------------:|---------------------------|
+| disco-floor-lights-hello-world.mov | Disco floor LEDs cycling colors in the dark | IMG_1616.mov      | (7s) 6,284 |      720 x 1280 | 2022-04-29T22:11:53-07:00 |
 
 ## Detailed Descriptions (30-35 words)
 

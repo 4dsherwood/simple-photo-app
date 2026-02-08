@@ -77,6 +77,13 @@ Description guidelines:
 - Short description (table): 5-8 words, enough to identify the photo at a glance
 - Long description (list below table): 2-3 sentences, 30-50 words, covering what's in the frame, key details, and context
 
+Creation date capture (table column: "Creation Date"):
+- Photos (JPEG): EXIF `creation` field via `sips -g creation <file>` — format: `YYYY:MM:DD HH:MM:SS` (no timezone)
+- Videos (MOV): Apple QuickTime tag via `ffprobe -v quiet -show_entries format_tags=com.apple.quicktime.creationdate -of csv=p=0 <file>` — format: ISO 8601 with timezone
+- Record the value exactly as the source provides it (formats differ between photos and videos)
+- Both originate from the device camera and survive file renames
+- The generic `creation_time` tag on videos is unreliable (often reflects copy date, not recording date)
+
 ---
 
 ## 🐛 Troubleshooting
