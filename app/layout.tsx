@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Simple Photo App',
-  description: 'A static-first Next.js photo gallery - stepping stone to Aroma App',
+  description: 'A VERY static-first Next.js photo gallery - stepping stone to Aroma App',
 };
 
 export default function RootLayout({
