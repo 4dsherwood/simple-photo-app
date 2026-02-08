@@ -57,6 +57,22 @@ const photos = [
 
 3. Remember the `/simple-photo-app` basePath prefix!
 
+### Updating the Photo Inventory (`table_data.md`)
+
+Use these AI prompts to catalog new photos:
+
+1. "Find pictures in `public/photos/` directory"
+2. For each new photo: "Describe that photo"
+3. "Suggest a better filename for that photo"
+4. Update the table: "Add a row with the new filename, short description, original filename, size (KB), and dimensions"
+5. "Add a detailed description to the list below the table"
+
+Photo sizing guidelines:
+- Resize to ~1600px on longest edge
+- JPEG quality 80-85%
+- Target 150-400 KB per image
+- Use lowercase, hyphenated filenames (e.g. `sunset-beach.jpg`)
+
 ---
 
 ## 🐛 Troubleshooting
