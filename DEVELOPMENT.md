@@ -46,12 +46,12 @@ npx serve out
 
 ### Adding Photos
 
-1. Add images to `public/images/`
+1. Add images to `public/photos/`
 2. Update `app/components/PhotoGallery.tsx`:
 
 ```tsx
 const photos = [
-  { id: 1, title: 'My Photo', url: '/simple-photo-app/images/photo.jpg' },
+  { id: 1, title: 'My Photo', url: '/simple-photo-app/photos/photo.jpg' },
 ];
 ```
 
@@ -84,8 +84,8 @@ cat next.config.js
 3. Wait 2-3 minutes for CDN propagation
 
 ### Images don't load
-- Check basePath: `/simple-photo-app/images/photo.jpg` (not `/images/photo.jpg`)
-- Verify file exists in `public/images/`
+- Check basePath: `/simple-photo-app/photos/photo.jpg` (not `/photos/photo.jpg`)
+- Verify file exists in `public/photos/`
 
 ---
 

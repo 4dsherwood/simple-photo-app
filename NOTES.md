@@ -72,28 +72,11 @@ When transitioning to Aroma App, add:
 
 ## 🎨 Customization Notes
 
-### Adding Real Photos
+### Photos
 
-1. Place images in `public/images/`
-2. Update `app/components/PhotoGallery.tsx`:
+See the "Adding Photos" section in [DEVELOPMENT.md](DEVELOPMENT.md) for instructions.
 
-```tsx
-const myPhotos = [
-  { 
-    id: 1, 
-    title: 'Sunset', 
-    url: '/simple-photo-app/images/sunset.jpg' // Note: basePath included
-  },
-];
-```
-
-**Important:** Include `/simple-photo-app` base path for GitHub Pages
-
-### Image Optimization
-
-Currently disabled (`unoptimized: true`) because:
-- Static export doesn't support Next.js Image Optimization
-- Future: Use Vercel/Netlify for automatic optimization
+Image optimization is currently disabled (`unoptimized: true`) because static export doesn't support Next.js Image Optimization. Future: Use Vercel/Netlify for automatic optimization.
 
 ---
 
