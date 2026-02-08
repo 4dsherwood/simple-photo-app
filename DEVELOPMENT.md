@@ -57,7 +57,7 @@ const photos = [
 
 3. Remember the `/simple-photo-app` basePath prefix!
 
-### Updating the Photo Inventory (`table_data.md`)
+### Updating the Photo Inventory (`photos_data.md`)
 
 Use these AI prompts to catalog new photos:
 
@@ -72,6 +72,10 @@ Photo sizing guidelines:
 - JPEG quality 80-85%
 - Target 150-400 KB per image
 - Use lowercase, hyphenated filenames (e.g. `sunset-beach.jpg`)
+
+Description guidelines:
+- Short description (table): 5-8 words, enough to identify the photo at a glance
+- Long description (list below table): 2-3 sentences, 30-50 words, covering what's in the frame, key details, and context
 
 ---
 
