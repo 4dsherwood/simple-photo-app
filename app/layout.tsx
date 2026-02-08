@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Simple Photo App',
+  title: 'Simple Photo App - XXX',
   description: 'A VERY static-first Next.js photo gallery - stepping stone to Aroma App',
 };
 

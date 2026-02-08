@@ -9,7 +9,7 @@ export default function Home() {
             Simple Photo App
           </h1>
           <p className="text-xl text-gray-600">
-            A static-first Next.js application
+            An EXTREMELY static-first Next.js application
           </p>
         </header>
         
