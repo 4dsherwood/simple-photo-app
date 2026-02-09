@@ -24,6 +24,8 @@ The following files are in [public/photos/](public/photos/) directory.
 
 ## Creation Dates
 
+If filenames ever get corrupted, this internal information can be used to identify them.  See [DEVELOPMENT.md](DEVELOPMENT.md) to find how this information is captured.
+
 | Original Filename | Creation Date             |
 |-------------------|---------------------------|
 | IMG_1530.jpeg     | 2022:04:22 17:39:46       |

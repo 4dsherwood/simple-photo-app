@@ -59,7 +59,9 @@ const photos = [
 
 1. Remember the `/simple-photo-app` basePath prefix!
 
-### Updating the Photo Inventory (`photos_data.md`)
+### Updating the Photo Inventory
+
+Store photo inventory data in [photos_data.md](photos_data.md)
 
 Use these AI prompts to catalog new photos:
 
