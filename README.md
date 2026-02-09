@@ -8,7 +8,7 @@ This project is already configured for static export and GitHub Pages.
 2. Push to the `main` branch.
 3. In GitHub, go to **Settings → Pages** and set **Source** to **GitHub Actions**.
 4. Wait for the **Deploy to GitHub Pages** workflow to finish. Your site will be available at:
-- `https://4dsherwood.github.io/simple-photo-app/`
+- [https://4dsherwood.github.io/simple-photo-app/](https://4dsherwood.github.io/simple-photo-app/)
 
 Local build (optional):
 
