@@ -1,6 +1,6 @@
 # The Disco Dance Floor
 
-She had a vision — a real, light-up disco dance floor for her best friend's bachelorette party. Not a sticker. Not a vinyl mat. A handmade, LED-lit, individually addressable dance floor that would glow in every color of the rainbow.
+She had a vision — a real, light-up disco dance floor for her best friend's bachelorette party. Not a vinyl mat. A handmade, LED-lit, individually addressable dance floor that would glow in every color of the rainbow.
 
 
 And she made it real.

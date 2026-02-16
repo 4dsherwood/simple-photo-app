@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Simple Photo App - XXX',
-  description: 'A VERY static-first Next.js photo gallery - stepping stone to Aroma App',
+  title: 'The Disco Dance Floor - A Story of Making Dreams Real',
+  description: 'The story of Melinda\'s handmade LED disco dance floor - vision, planning, building, and delivery.',
 };
 
 export default function RootLayout({
