@@ -71,6 +71,20 @@ Use these AI prompts to catalog new photos:
 4. Update the table: "Add a row with the new filename, short description, original filename, size (KB), and dimensions"
 5. "Add a detailed description to the list below the table"
 
+Step-by-step checklist I follow for each new photo:
+
+1. Identify the new original filename in `public/photos/`.
+2. Inspect the image and write:
+  - Short description (5–8 words)
+  - Detailed description (30–35 words)
+3. Choose a new descriptive filename (lowercase, hyphenated).
+4. Collect metadata (size, dimensions, creation date).
+5. Update the Summary table with the new row.
+6. Add the detailed description to the numbered list.
+7. Add the creation date to the Creation Dates table.
+8. Fix formatting so each table row is on its own line.
+9. Re-scan the file for consistency and ordering.
+
 Photo sizing guidelines:
 
 - Resize to ~1600px on longest edge
@@ -90,6 +104,19 @@ Creation date capture (table column: "Creation Date"):
 - Record the value exactly as the source provides it (formats differ between photos and videos)
 - Both originate from the device camera and survive file renames
 - The generic `creation_time` tag on videos is unreliable (often reflects copy date, not recording date)
+
+Image inspection tools I use:
+
+- Dimensions + EXIF creation date (JPEG):
+  - `sips -g pixelWidth -g pixelHeight -g creation <file>`
+- File size (bytes):
+  - `ls -lk <file>`
+- Convert bytes → KB (rounded):
+  - `python - <<'PY'
+from pathlib import Path
+p = Path('<file>')
+print(round(p.stat().st_size/1024))
+PY`
 
 ---
 

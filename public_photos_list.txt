@@ -1,0 +1,12 @@
+total 23432
+-rw-r--r--@ 1 diana22  staff   522K Feb  8 11:28 IMG_1530.jpeg
+-rw-r--r--@ 1 diana22  staff   492K Feb  8 11:15 IMG_1534.jpeg
+-rw-r--r--@ 1 diana22  staff   471K Feb 15 20:20 IMG_1544.jpeg
+-rw-r--r--@ 1 diana22  staff   563K Feb 15 20:20 IMG_1547.jpeg
+-rw-r--r--@ 1 diana22  staff   580K Feb 15 20:20 IMG_1548.jpeg
+-rw-r--r--@ 1 diana22  staff   726K Feb 15 20:20 IMG_1551.jpeg
+-rw-r--r--@ 1 diana22  staff   782K Feb 15 20:20 IMG_1552.jpeg
+-rw-r--r--@ 1 diana22  staff   546K Feb  8 11:28 IMG_1593.jpeg
+-rw-r--r--@ 1 diana22  staff   310K Feb  8 11:28 IMG_1597.jpeg
+-rw-r--r--@ 1 diana22  staff   6.0M Feb  8 11:28 IMG_1616.mov
+-rw-r--r--@ 1 diana22  staff   566K Feb  8 11:28 IMG_1681.jpeg

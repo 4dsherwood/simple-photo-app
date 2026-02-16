@@ -30,9 +30,9 @@ confirm permissions
 ### Photo Inventory
 
 ```
-we just added some photos to the photo dir
-please describe the new photo.
-in chat and include everything we need to update the table in @photos_data
+we just added some photos to the public photo dir
+please describe the new photos.
+and update the tables in @photos_data
 ```
 
 ```
