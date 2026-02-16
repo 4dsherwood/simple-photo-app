@@ -1,6 +1,6 @@
 # Photo Inventory
 
-## Summay
+## Summary
 
 The following files are in [public/photos/](public/photos/) directory.
 
