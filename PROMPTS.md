@@ -92,4 +92,8 @@ run the app locally
 
 ---
 
+add .gitmessage
+Co-authored-by: GitHub Copilot <copilot@github.com>
+
+
 *Add your own key prompts below as you discover what works best for your workflow.*

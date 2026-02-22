@@ -13,6 +13,10 @@ The following files are in [public/photos/](public/photos/) directory.
 | led-wire-soldering-closeup.jpg     | Stripped wires in alligator clips           | IMG_1597.jpeg |        318 |     1200 x 1600 |
 | disco-floor-grid-led-assembly.jpg  | Disco floor grid with LEDs mounted          | IMG_1681.jpeg |        579 |     1200 x 1600 |
 | acrylic-sheet-on-floor.jpg         | Large acrylic sheet laid flat on workshop floor | IMG_1544.jpeg |        471 |     1600 x 1200 |
+| acrylic-sheet-measuring-marks.jpg  | Marking cut lines on large acrylic sheet    | IMG_1547.jpeg |        563 |     1600 x 1200 |
+| acrylic-sheet-cutting-prep.jpg     | Acrylic sheet prepared and measured for cutting | IMG_1548.jpeg |        580 |     1600 x 1200 |
+| workshop-assembly-prep.jpg         | Workshop table setup with acrylic and materials | IMG_1551.jpeg |        726 |     1600 x 1200 |
+| acrylic-panels-stacked.jpg         | Cut acrylic panels stacked on workshop surface | IMG_1552.jpeg |        782 |     1600 x 1200 |
 |------------------------------------|---------------------------------------------|---------------|-----------:|----------------:|
 | disco-floor-lights-hello-world.mov | Disco floor LEDs cycling colors in the dark | IMG_1616.mov  | (7s) 6,284 |      720 x 1280 |
 |------------------------------------|---------------------------------------------|---------------|-----------:|----------------:|
@@ -26,24 +30,36 @@ The following files are in [public/photos/](public/photos/) directory.
 5. **led-wire-soldering-closeup.jpg** — Close-up of three stripped wires (white, green, red) held in alligator clips on a green soldering surface. The wires are being prepped for soldering LED data and power connections as part of the disco floor build.
 6. **disco-floor-grid-led-assembly.jpg** — Full view of the disco floor grid frame from above, painted white, with individual RGB LED modules mounted in each cell using metal strapping. Workshop with parts drawers and tool chest in the background.
 7. **acrylic-sheet-on-floor.jpg** — A large acrylic sheet laid flat on the workshop floor after being unwrapped, showing the glossy surface. The protective film has been removed, revealing the clear material that will serve as the top panels for the disco floor cells.
-8. **disco-floor-lights-hello-world.mov** — Seven-second video of the completed light panel running in a darkened room. Each cell in the grid glows a different color — reds, blues, greens, pinks, teals — with colors shifting and cycling through a test pattern.
+8. **acrylic-sheet-measuring-marks.jpg** — Measuring and marking cut lines on the large acrylic sheet using a straightedge and marker. Grid lines are being drawn to mark where the acrylic will be cut into individual panels for the disco floor grid cells.
+9. **acrylic-sheet-cutting-prep.jpg** — Acrylic sheet positioned on the workshop table with cutting guides and marks visible. Preparation is underway for cutting the sheet into individual panels that will fit into the grid frame assembly.
+10. **workshop-assembly-prep.jpg** — Workshop table organized with cut acrylic panels, wooden frame pieces, and assembly materials staged for the next phase of disco floor construction.
+11. **acrylic-panels-stacked.jpg** — Stack of cut acrylic panels arranged on the workshop surface, ready to be installed as transparent tops for the RGB LED cells in the disco floor grid.
+12. **disco-floor-lights-hello-world.mov** — Seven-second video of the completed light panel running in a darkened room. Each cell in the grid glows a different color — reds, blues, greens, pinks, teals — with colors shifting and cycling through a test pattern.
 
 ## Creation Dates
 
 If filenames ever get corrupted, this internal information can be used to identify them.  See [DEVELOPMENT.md](DEVELOPMENT.md) to find how this information is captured.
 
-| Original Filename | Creation Date             |
-|-------------------|---------------------------|
-| IMG_1530.jpeg     | 2022:04:22 17:39:46       |
-| IMG_1534.jpeg     | 2022:04:22 18:13:30       |
-| IMG_1543.jpeg     | 2022:04:22 20:22:45       |
-| IMG_1593.jpeg     | 2022:04:29 17:05:40       |
-| IMG_1597.jpeg     | 2022:04:29 17:32:58       |
-| IMG_1681.jpeg     | 2022:05:08 14:28:56       |
-| IMG_1544.jpeg     | 2022:04:22 20:23:06       |
-| IMG_1547.jpeg     | 2022:04:22 20:24:25       |
-| IMG_1548.jpeg     | 2022:04:22 20:24:34       |
-| IMG_1551.jpeg     | 2022:04:22 20:26:29       |
-| IMG_1552.jpeg     | 2022:04:22 20:26:36       |
-|-------------------|---------------------------|
-| IMG_1616.mov      | 2022:04:29 22:11:53-07:00 |
+
+
+### Photos
+
+| # | Original Filename | Creation Date             |
+|---|-------------------|---------------------------|
+| 1 | IMG_1530.jpeg     | 2022:04:22 17:39:46       |
+| 2 | IMG_1534.jpeg     | 2022:04:22 18:13:30       |
+| 3 | IMG_1543.jpeg     | 2022:04:22 20:22:45       |
+| 4 | IMG_1544.jpeg     | 2022:04:22 20:23:06       |
+| 5 | IMG_1547.jpeg     | 2022:04:22 20:24:25       |
+| 6 | IMG_1548.jpeg     | 2022:04:22 20:24:34       |
+| 7 | IMG_1551.jpeg     | 2022:04:22 20:26:29       |
+| 8 | IMG_1552.jpeg     | 2022:04:22 20:26:36       |
+| 9 | IMG_1593.jpeg     | 2022:04:29 17:05:40       |
+| 10 | IMG_1597.jpeg     | 2022:04:29 17:32:58       |
+| 11 | IMG_1681.jpeg     | 2022:05:08 14:28:56       |
+
+### Movies
+
+| # | Original Filename | Creation Date             |
+|---|-------------------|---------------------------|
+| 1 | IMG_1616.mov      | 2022:04:29 22:11:53-07:00 |
