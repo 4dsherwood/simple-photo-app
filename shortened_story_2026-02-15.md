@@ -1,6 +1,7 @@
 # The Disco Dance Floor
 
-She had a vision — a real, light-up disco dance floor for her best friend's bachelorette party. Not a vinyl mat. A handmade, LED-lit, individually addressable dance floor that would glow in every color of the rainbow.
+
+She had a vision — a real, light-up disco dance floor for her best friend's bachelorette party. Not a sticker. Not a vinyl mat. A handmade, LED-lit, individually addressable dance floor that would glow in every color of the rainbow.
 
 
 And she made it real.
@@ -25,33 +26,50 @@ She decided the full vision was within reach in terms of time, budget and capabi
 
 
 ---
-The floor was is rectangular wooden grid — sturdy lumber forming a frame of foot-square cells. Under each cell: individually addressable RGB LEDs wired through a harness of connectors, soldered by hand. Over each cell: acrylic, sanded to a frost so the light would diffuse evenly across the square.
+The floor is a rectangular wooden grid — sturdy lumber forming a frame of foot-square cells. Under each cell: individually addressable RGB LEDs wired through a harness of connectors, soldered by hand. Over each cell: acrylic, sanded to a frost so the light would diffuse evenly across the square.
+
 
 She learned to solder with mentorship from Bob — connecting colored wires in precise patterns, slipping heat-shrink tubing over each joint, sealing it with a heat gun. She was good at it. Better than some who had done it before. She carefully peeled the protective backing off the acrylic in one piece — slowly, patiently folding it back on itself so it wouldn't tear. She drilled through acrylic and wood. She was there for every step — the wiring, the assembly, the testing.
 
-Bob designed the engineering. He solved the structural problems and often pulled her into the problem-solving so she could see it and contribute. She showed up week after week — once a week at first, then twice as the deadline approached. When something was labor-intensive and time was short, Bob would finish a piece so the project stayed on track. But she had learned how to do every part of it. She never asked him to just do it for her. She always chose to cut scope before cutting someone else's boundaries.
 
+Bob designed the engineering. He solved the structural problems and often pulled her into the problem-solving so she could see it and contribute. She showed up week after week — once a week at first, then twice as the deadline approached. When something was labor-intensive and time was short, Bob would finish a piece so the project stayed on track. But she had learned how to do every part of it. She never asked him to just do it for her. She always chose to cut scope rather than asking for more of Bob’s time.
 ---
 
-Then came the constraint she imposed on herself.
 
-Bob and Dana had offered to travel with her and help set up the floor at the venue. But Melinda's independent streak wouldn't allow it. She didn't want to burden anyone further. The floor — originally built as one solid, heavy piece — now had to be split in two, transportable and reassemblable by her and her mom alone. Bob re-engineered the design, cut it in half, and made the electronics reconnect in the middle.
+Then came and unexpected constraint that challenged the project timeline.
+
+
+Bob and Dana had offered to travel with her and help set up the floor at the venue. But Melinda's independent streak wouldn't allow it. She didn't want to burden anyone further. The floor — originally built as one solid, heavy piece — now had to be split in two pieces,so that it could be  transported and reassemblable by her and her mom without additional help. Bob re-engineered the design, cut it into two reassemble pieces, and modified the electronics so that the two sides  could be reconnected.
+
 
 She set the bar higher on herself, and then she cleared it.
 
+
+Even with this late breaking design, change the team rallied together, and we stayed on track for the target delivery dates.
+
+
 ---
+
 
 There was also the matter of the disco balls. She had bought some and planned to spray-paint them — something she'd seen on Pinterest. Bob had a quiet reaction: *Why cover up something beautiful when you could light it up instead?* So he put lights on the disco ball and made it spin. A real one. Because when you're already building the impossible, why not add one more miracle?
 
+
 ---
+
 
 A microcontroller ran the color patterns across the floor — reds, blues, greens, pinks, teals shifting and cycling through each cell. Bob customized the code so the patterns looked good across the columns. Melinda said she was curious to learn the programming someday. That door is still open.
 
+
 ---
 
-She saw something in her mind — a glowing dance floor in a darkened room, her best friend's joy, a party no one would forget — and she made it exist in the physical world. Piece by piece. Wire by wire. Solder joint by solder joint.
+
+She saw something in her mind — a glowing dance floor in a darkened room, her best friend's joy, a party no one would forget — and she brought the disco floor into existence the physical world. Piece by piece. Wire by wire. Solder joint by solder joint.
+
 
 This is what she does. She envisions, she plans, she builds, she delivers. She did it with her business. She did it with this floor. She will do it with whatever comes next.
 
+
 ---
-*So, Melinda — what will you manifest next?* *Whenever you're ready, the world is your workshop! And it is patiently waiting for you.*
+*So, Melinda — what will you manifest next?*
+*Whenever you're ready, the workshop is open.*
+
