@@ -120,6 +120,63 @@ PY`
 
 ---
 
+## 📸 Batch Photo Processing Method
+
+When processing multiple photos at once (e.g., 45+ new files):
+
+### Step 1: Identify New Files
+```bash
+ls -1 public/photos/ | sort
+# Compare against what's already documented in photos_data.md
+```
+
+### Step 2: Get File Sizes in Bulk
+```bash
+cd public/photos/
+for f in IMG_*.jpeg IMG_*.mov; do 
+  ls -lh "$f" 2>/dev/null | awk '{print $9, $5}'
+done
+```
+
+### Step 3: Extract Creation Dates from Metadata
+```bash
+for f in IMG_*.jpeg IMG_*.mov; do 
+  mdls -name kMDItemContentCreationDate "$f" 2>/dev/null | grep -o '[0-9-]* [0-9:]*'
+done
+```
+
+### Step 4: Organize Data by File Type
+- Create two sections in the summary table: photos (numbered 1-N) and movies (numbered M1-M8)
+- Sort files by creation date for both sections
+- Use descriptive filenames in `kebab-case`
+- Add placeholder descriptions with "TBD" for dimensions where needed
+
+### Step 5: Update photos_data.md Tables
+1. **Summary table**: Add all new entries with index numbers, descriptive names, short descriptions (5-8 words), original filenames, file sizes (KB), and dimensions (or "TBD")
+2. **Creation Dates table**: Add complete index with all photos and movies in chronological order by creation date
+3. **Total counts**: Update photo and movie file counts at top of Creation Dates section
+
+
+### Step 6: Maintain Index Consistency
+- Photos numbered sequentially (1, 2, 3, ...)
+- Movies numbered separately (M1, M2, M3, ...)
+- Keep indices aligned across Summary and Creation Dates tables and the detailed desctiption area
+
+### Example Process
+```markdown
+# Before processing
+Photos: 11 documented
+Movies: 1 documented
+
+# After processing 45+ new files
+Photos: 47 documented (indices 1-49)
+Movies: 8 documented (indices M1-M8)
+
+# All files sorted by creation date within their sections
+```
+
+---
+
 ## 🐛 Troubleshooting
 
 ### Dev server won't start
