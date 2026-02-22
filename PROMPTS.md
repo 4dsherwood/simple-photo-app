@@ -80,9 +80,26 @@ remove this text: Not a sticker. from the short story, and the website
 run the app locally
 ```
 
----
+### Updating Website with Photos & Story
 
-## Tips for Effective Prompts
+```
+lets update the local version of the app
+make an updated version of the website/app
+using the new photos and following the 2/15 story
+no need use every photo
+Choose the photos that are helpful to tell the story
+let me know if there is a photo you wish we had
+
+add a new section to website that shows a thumbnail of ALL the photos not used so far in support of the story
+```
+
+**Implementation Notes:**
+- Story flows: Vision → Background → Planning → Building → Assembly → Wiring → Testing → Conclusion
+- Select photos that visually reinforce key narrative beats
+- Create unused gallery section with thumbnails of all photos not in main narrative
+- For recommended photo selections by story section, see [photos_data.md](photos_data.md) and update as needed when story changes
+
+---
 
 - **Be specific** about what you want changed or created
 - **Reference files** using @ mentions when available

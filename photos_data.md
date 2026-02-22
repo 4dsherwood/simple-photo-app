@@ -151,10 +151,13 @@ If filenames ever get corrupted, this internal information can be used to identi
 | 6 | IMG_1616.mov      | 2022:04:29 22:11:53-07:00 |
 | 7 | IMG_1948.mov      | 2022:05:21 04:57:24       |
 | 8 | IMG_1950.mov      | 2022:05:22 03:11:45       |
-| 11 | IMG_1681.jpeg     | 2022:05:08 14:28:56       |
 
-### Movies
+## Photos We Wish We Had
 
-| # | Original Filename | Creation Date             |
-|---|-------------------|---------------------------|
-| 1 | IMG_1616.mov      | 2022:04:29 22:11:53-07:00 |
+These images would complete the visual narrative of the disco floor story:
+
+1. **Disco balls with LED lights** — Spinning disco balls with LED illumination mounted and running (mentioned in story, illustrates Bob's creative enhancement)
+2. **Party moment with people dancing** — The final payoff: the disco floor in use at the bachelorette party with people dancing and celebrating
+3. **Floor ready for transport** — Complete assembled floor loaded or staged for transport (illustrates the design constraint and adaptation)
+4. **Melinda with finished floor** — Portrait of Melinda standing with or near the completed disco floor (her achievement and the maker's moment)
+5. **Reassembled pieces** — The two-piece design showing how the floor was split for transportability (illustrates the engineering adaptation)
