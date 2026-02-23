@@ -1,0 +1,117 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+usage() {
+  cat <<'EOF'
+Usage: start-mobbing [--dry-run]
+
+Opens mobbing links and starts the local dev server on port 3000.
+
+Options:
+  --dry-run     Print actions, but don't open URLs or start server
+  -h, --help    Show this help
+EOF
+}
+
+DRY_RUN=0
+NOTE_DOC_URL="https://docs.google.com/document/d/1ULmEFWgYCNfCnTwQWhO0nu9CEcfKuI35t0Lb3poKgq0/edit?tab=t.0"
+
+while [[ "${1:-}" != "" ]]; do
+  case "$1" in
+    --dry-run) DRY_RUN=1 ;;
+    -h|--help) usage; exit 0 ;;
+    *) echo "Unknown arg: $1" >&2; usage; exit 2 ;;
+  esac
+  shift
+done
+
+SCRIPT_DIRNAME="$(CDPATH= cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." >/dev/null 2>&1 && pwd -P)"
+
+open_url() {
+  local url="$1"
+  if [[ "$DRY_RUN" == "1" ]]; then
+    echo "Would open: $url"
+    return 0
+  fi
+  if command -v open >/dev/null 2>&1; then
+    open "$url"
+  elif command -v xdg-open >/dev/null 2>&1; then
+    xdg-open "$url" >/dev/null 2>&1 &
+  else
+    echo "No URL opener found (need 'open' or 'xdg-open'). URL: $url" >&2
+  fi
+}
+
+is_port_listening() {
+  local port="$1"
+  if command -v lsof >/dev/null 2>&1; then
+    lsof -n -iTCP:"$port" -sTCP:LISTEN >/dev/null 2>&1
+    return $?
+  fi
+  if command -v nc >/dev/null 2>&1; then
+    nc -z 127.0.0.1 "$port" >/dev/null 2>&1
+    return $?
+  fi
+  return 1
+}
+
+production_pages_url() {
+  # Derive https://<owner>.github.io/<repo>/ from origin remote when possible.
+  local origin owner repo
+  origin="$(git -C "$SCRIPT_DIRNAME" remote get-url origin 2>/dev/null || true)"
+  if [[ "$origin" =~ github\.com[:/]+([^/]+)/([^/.]+)(\.git)?$ ]]; then
+    owner="${BASH_REMATCH[1]}"
+    repo="${BASH_REMATCH[2]}"
+    printf 'https://%s.github.io/%s/\n' "$owner" "$repo"
+  else
+    # Fallback to the repo's documented production URL.
+    printf '%s\n' 'https://4dsherwood.github.io/simple-photo-app/'
+  fi
+}
+
+start_dev_server() {
+  # Prefer separate Terminal on macOS so this script can exit cleanly.
+  if [[ "$DRY_RUN" == "1" ]]; then
+    echo "Not starting server (--dry-run)."
+  elif is_port_listening "$DEV_PORT"; then
+    echo "Port ${DEV_PORT} is already in use; assuming dev server is running."
+  else
+    if command -v osascript >/dev/null 2>&1; then
+      osascript <<EOF >/dev/null
+tell application "Terminal"
+  activate
+  do script "cd \"${SCRIPT_DIRNAME}\" && npm run dev -- -p ${DEV_PORT}"
+end tell
+EOF
+    else
+      (npm run dev -- -p "${DEV_PORT}") &
+    fi
+  fi
+}
+
+open_URLs() {
+  open_url "$DISCORD_URL"
+  open_url "$GITHUB_REPO_URL"
+  open_url "$NOTE_DOC_URL"
+  open_url "$DEV_URL"
+  open_url "$PROD_URL"
+  echo "Opened:"
+  echo "  - $DISCORD_URL"
+  echo "  - $GITHUB_REPO_URL"
+  echo "  - $NOTE_DOC_URL"
+  echo "  - $DEV_URL"
+  echo "  - $PROD_URL"
+}
+
+main() {
+  DEV_PORT="3000"
+  DEV_URL="http://localhost:${DEV_PORT}/"
+  DISCORD_URL="https://discord.com/channels/@me/1172229909016481832"
+  GITHUB_REPO_URL="https://github.com/4dsherwood/simple-photo-app"
+  PROD_URL="$(production_pages_url)"
+  cd "$SCRIPT_DIRNAME"
+  start_dev_server
+  open_URLs
+}
+
+main

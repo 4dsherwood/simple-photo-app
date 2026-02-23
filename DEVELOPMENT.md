@@ -10,6 +10,9 @@ npm install
 npm run dev
 # Open http://localhost:3000
 
+# Or: open mobbing links and start dev server (Discord, GitHub, notes, dev, prod)
+./sbin/start-mobbing
+
 # Build for production
 npm run build
 # Output in ./out/
