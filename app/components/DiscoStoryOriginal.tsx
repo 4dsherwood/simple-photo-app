@@ -4,6 +4,11 @@ import Link from 'next/link';
 
 const basePath = process.env.NODE_ENV === 'production' ? '/simple-photo-app' : '';
 const unusedPhotos = [
+  { fileName: 'IMG_1543.jpeg', description: 'Unwrapping acrylic sheet on workshop floor' },
+  { fileName: 'IMG_1591.jpeg', description: 'LED soldering work at bench station' },
+  { fileName: 'IMG_1609.jpeg', description: 'Sanding acrylic to create frosted finish' },
+  { fileName: 'IMG_1611.jpeg', description: 'Grid panel construction in progress' },
+  { fileName: 'IMG_1953.jpeg', description: 'Full grid illumination during testing' },
   { fileName: 'IMG_9465.jpeg', description: 'Acrylic panels with metal strapping detail' },
   { fileName: 'IMG_1535.jpeg', description: 'Close-up of acrylic material preparation' },
   { fileName: 'IMG_1544.jpeg', description: 'Large acrylic sheet laid flat on workshop floor' },
@@ -35,7 +40,6 @@ const unusedPhotos = [
   { fileName: 'IMG_1947.jpeg', description: 'Night testing environment for LEDs' },
   { fileName: 'IMG_1951.jpeg', description: 'Animation sequence display testing' },
   { fileName: 'IMG_1952.jpeg', description: 'Color gradient test pattern display' },
-  { fileName: 'IMG_1953.jpeg', description: 'Full grid illumination during testing' },
   { fileName: 'IMG_1955.jpeg', description: 'Synchronized color display test' },
   { fileName: 'IMG_1956.jpeg', description: 'Brightness adjustment testing' },
   { fileName: 'IMG_1957.jpeg', description: 'Color mixing effects demonstration' },
@@ -46,16 +50,16 @@ const unusedPhotos = [
   { fileName: 'IMG_1972.jpeg', description: 'Final display verification and testing' },
 ];
 
-export default function DiscoStory() {
+export default function DiscoStoryOriginal() {
   return (
     <div className="max-w-4xl mx-auto">
       {/* Navigation Link */}
       <div className="px-4 pt-6 pb-2">
         <Link 
-          href="/story2" 
+          href="/" 
           className="text-blue-600 hover:text-blue-800 underline text-sm"
         >
-          View Story 2
+          View Story 1 (Enhanced)
         </Link>
       </div>
 
@@ -103,17 +107,6 @@ export default function DiscoStory() {
         <p className="text-lg leading-relaxed text-gray-800 mt-6">
           She decided the full vision was within reach in terms of time, budget and capability. And then she built it.
         </p>
-
-        <div className="my-12">
-          <img 
-            src={`${basePath}/photos/IMG_1543.jpeg`}
-            alt="Unwrapping acrylic sheet on workshop floor"
-            className="w-full rounded-lg shadow-2xl"
-          />
-          <p className="text-sm text-gray-600 text-center mt-4 italic">
-            Unwrapping the acrylic sheet to begin preparation
-          </p>
-        </div>
       </section>
 
       <div className="border-t-2 border-gray-200 my-12"></div>
@@ -144,17 +137,6 @@ export default function DiscoStory() {
         <p className="text-lg leading-relaxed text-gray-800 mb-8">
           She learned to solder with mentorship from Bob — connecting colored wires in precise patterns, slipping heat-shrink tubing over each joint, sealing it with a heat gun. She was good at it. Better than some who had done it before.
         </p>
-
-        <div className="my-12">
-          <img 
-            src={`${basePath}/photos/IMG_1591.jpeg`}
-            alt="LED soldering work at bench station"
-            className="w-full rounded-lg shadow-2xl"
-          />
-          <p className="text-sm text-gray-600 text-center mt-4 italic">
-            Soldering LED connections at the workbench
-          </p>
-        </div>
 
         <div className="grid md:grid-cols-2 gap-8 my-12">
           <div>
@@ -192,34 +174,12 @@ export default function DiscoStory() {
         <div className="space-y-12 my-12">
           <div>
             <img 
-              src={`${basePath}/photos/IMG_1609.jpeg`}
-              alt="Sanding acrylic to create frosted finish"
-              className="w-full rounded-lg shadow-2xl"
-            />
-            <p className="text-sm text-gray-600 text-center mt-4 italic">
-              Sanding the acrylic panels to create a frosted diffusion effect
-            </p>
-          </div>
-
-          <div>
-            <img 
               src={`${basePath}/photos/IMG_1534.jpeg`}
               alt="Partially assembled disco floor"
               className="w-full rounded-lg shadow-2xl"
             />
             <p className="text-sm text-gray-600 text-center mt-4 italic">
               Progress: Some cells with LEDs mounted, others still empty
-            </p>
-          </div>
-
-          <div>
-            <img 
-              src={`${basePath}/photos/IMG_1611.jpeg`}
-              alt="Grid panel construction in progress"
-              className="w-full rounded-lg shadow-2xl"
-            />
-            <p className="text-sm text-gray-600 text-center mt-4 italic">
-              Grid panels coming together during construction
             </p>
           </div>
           
@@ -242,32 +202,19 @@ export default function DiscoStory() {
           A microcontroller ran the color patterns across the floor — reds, blues, greens, pinks, teals shifting and cycling through each cell. Bob customized the code so the patterns looked good across the columns. Melinda said she was curious to learn the programming someday. That door is still open.
         </p>
 
-        <div className="space-y-12 my-12">
-          <div>
-            <video 
-              src={`${basePath}/photos/IMG_1616.mov`}
-              controls
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full rounded-lg shadow-2xl"
-            />
-            <p className="text-sm text-gray-600 text-center mt-4 italic">
-              The floor comes alive — colors cycling in the darkness
-            </p>
-          </div>
-
-          <div>
-            <img 
-              src={`${basePath}/photos/IMG_1953.jpeg`}
-              alt="Full grid illumination during testing"
-              className="w-full rounded-lg shadow-2xl"
-            />
-            <p className="text-sm text-gray-600 text-center mt-4 italic">
-              Full illumination — every cell glowing in synchronized patterns
-            </p>
-          </div>
+        <div className="my-12">
+          <video 
+            src={`${basePath}/photos/IMG_1616.mov`}
+            controls
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full rounded-lg shadow-2xl"
+          />
+          <p className="text-sm text-gray-600 text-center mt-4 italic">
+            The floor comes alive — colors cycling in the darkness
+          </p>
         </div>
       </section>
 
