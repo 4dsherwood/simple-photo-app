@@ -1,6 +1,52 @@
 'use client';
 
 const basePath = process.env.NODE_ENV === 'production' ? '/simple-photo-app' : '';
+const unusedPhotos = [
+  { fileName: 'IMG_9465.jpeg', description: 'Prototype detail photography' },
+  { fileName: 'IMG_1535.jpeg', description: 'Close-up of acrylic material preparation' },
+  { fileName: 'IMG_1543.jpeg', description: 'Unwrapping acrylic sheet on workshop floor' },
+  { fileName: 'IMG_1544.jpeg', description: 'Large acrylic sheet laid flat on workshop floor' },
+  { fileName: 'IMG_1547.jpeg', description: 'Marking cut lines on large acrylic sheet' },
+  { fileName: 'IMG_1548.jpeg', description: 'Acrylic sheet prepared and measured for cutting' },
+  { fileName: 'IMG_1551.jpeg', description: 'Workshop table setup with acrylic and materials' },
+  { fileName: 'IMG_1552.jpeg', description: 'Cut acrylic panels stacked on workshop surface' },
+  { fileName: 'IMG_1554.jpeg', description: 'Acrylic panels in assembly process' },
+  { fileName: 'IMG_1591.jpeg', description: 'LED soldering work at bench station' },
+  { fileName: 'IMG_1594.jpeg', description: 'Detail of LED wiring connections' },
+  { fileName: 'IMG_1595.jpeg', description: 'LED assembly components and materials' },
+  { fileName: 'IMG_1596.jpeg', description: 'Breadboard setup for LED control' },
+  { fileName: 'IMG_1598.jpeg', description: 'Close-up of wiring connection details' },
+  { fileName: 'IMG_1600.jpeg', description: 'Power supply and wiring arrangement' },
+  { fileName: 'IMG_1602.jpeg', description: 'LED panel being assembled in frame' },
+  { fileName: 'IMG_1604.jpeg', description: 'Components and wiring details' },
+  { fileName: 'IMG_1606.jpeg', description: 'Detail of panel construction progress' },
+  { fileName: 'IMG_1609.jpeg', description: 'Frame being assembled with components' },
+  { fileName: 'IMG_1610.jpeg', description: 'LED mounting and hardware setup' },
+  { fileName: 'IMG_1611.jpeg', description: 'Grid panel construction in progress' },
+  { fileName: 'IMG_1682.jpeg', description: 'Grid panels being assembled together' },
+  { fileName: 'IMG_1683.jpeg', description: 'Panels being installed in frame' },
+  { fileName: 'IMG_1684.jpeg', description: 'Overview of grid assembly progress' },
+  { fileName: 'IMG_1685.jpeg', description: 'Wiring installation in frame assembly' },
+  { fileName: 'IMG_1686.jpeg', description: 'Detail of completed frame assembly' },
+  { fileName: 'IMG_1687.jpeg', description: 'Final assembly of grid system' },
+  { fileName: 'IMG_1929.jpeg', description: 'Finished panel assembly ready for testing' },
+  { fileName: 'IMG_1932.jpeg', description: 'LED testing configuration and setup' },
+  { fileName: 'IMG_1936.jpeg', description: 'Testing color patterns on LED display' },
+  { fileName: 'IMG_1939.jpeg', description: 'Testing brightness levels of LEDs' },
+  { fileName: 'IMG_1940.jpeg', description: 'Control software interface for LEDs' },
+  { fileName: 'IMG_1947.jpeg', description: 'Night testing environment for LEDs' },
+  { fileName: 'IMG_1951.jpeg', description: 'Animation sequence display testing' },
+  { fileName: 'IMG_1952.jpeg', description: 'Color gradient test pattern display' },
+  { fileName: 'IMG_1953.jpeg', description: 'Full grid illumination during testing' },
+  { fileName: 'IMG_1955.jpeg', description: 'Synchronized color display test' },
+  { fileName: 'IMG_1956.jpeg', description: 'Brightness adjustment testing' },
+  { fileName: 'IMG_1957.jpeg', description: 'Color mixing effects demonstration' },
+  { fileName: 'IMG_1958.jpeg', description: 'Display running pattern sequence' },
+  { fileName: 'IMG_1959.jpeg', description: 'Grid performance during testing' },
+  { fileName: 'IMG_1961.jpeg', description: 'LED response time testing' },
+  { fileName: 'IMG_1962.jpeg', description: 'System stability during operation' },
+  { fileName: 'IMG_1972.jpeg', description: 'Final display verification and testing' },
+];
 
 export default function DiscoStory() {
   return (
@@ -176,6 +222,30 @@ export default function DiscoStory() {
         <p className="text-lg text-gray-700 text-center italic">
           Whenever you're ready, the world is your workshop! And it is patiently waiting for you.
         </p>
+      </section>
+
+      <div className="border-t-2 border-gray-200 my-12"></div>
+
+      <section className="px-4 pb-20">
+        <h2 className="text-sm tracking-wide uppercase text-gray-500 mb-6 text-center">
+          Unused Photos
+        </h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+          {unusedPhotos.map(({ fileName, description }) => (
+            <div key={fileName} className="flex flex-col items-center">
+              <img
+                src={`${basePath}/photos/${fileName}`}
+                alt={description}
+                className="w-full aspect-square object-cover rounded-md shadow"
+                loading="lazy"
+                title={fileName}
+              />
+              <p className="text-xs text-gray-600 mt-2 text-center leading-snug break-words">
+                {fileName.replace('IMG_', '').replace('.jpeg', '')} - {description}
+              </p>
+            </div>
+          ))}
+        </div>
       </section>
     </div>
   );
