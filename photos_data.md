@@ -25,7 +25,7 @@ The following files are in [public/photos/](public/photos/) directory.
 | 17 | led-panel-assembly.jpg             | LED panel being assembled in frame          | IMG_1602.jpeg |        656 |     TBD         |
 | 18 | wiring-components-detail.jpg       | Components and wiring details               | IMG_1604.jpeg |        388 |     TBD         |
 | 19 | panel-construction-detail.jpg      | Detail of panel construction progress       | IMG_1606.jpeg |        566 |     TBD         |
-| 20 | frame-assembly-process.jpg         | Frame being assembled with components       | IMG_1609.jpeg |        457 |     TBD         |
+| 20 | frame-assembly-process.jpg         | Sanding acrylic to create frosted finish    | IMG_1609.jpeg |        457 |     TBD         |
 | 21 | led-mounting-hardware.jpg          | LED mounting and hardware setup             | IMG_1610.jpeg |        649 |     TBD         |
 | 22 | panel-grid-construction.jpg        | Grid panel construction in progress         | IMG_1611.jpeg |        595 |     TBD         |
 | 23 | disco-floor-grid-led-assembly.jpg  | Disco floor grid with LEDs mounted          | IMG_1681.jpeg |        579 |     1200 x 1600 |
@@ -52,7 +52,7 @@ The following files are in [public/photos/](public/photos/) directory.
 | 44 | led-response-test.jpg              | LED response time testing                   | IMG_1961.jpeg |        429 |     TBD         |
 | 45 | system-stability-check.jpg         | System stability during operation            | IMG_1962.jpeg |        406 |     TBD         |
 | 46 | final-display-verification.jpg     | Final display verification and testing      | IMG_1972.jpeg |        706 |     TBD         |
-| 47 | prototype-photo-detail.jpg         | Prototype detail photography                | IMG_9465.jpeg |        129 |     TBD         |
+| 47 | prototype-photo-detail.jpg         | Acrylic panels with metal strapping detail  | IMG_9465.jpeg |        129 |     TBD         |
 |---|------------------------------------|--------------------------------------------|---------------|-----------:|----------------:|
 | M1 | disco-floor-lights-motion.mov      | Early motion test of disco floor LED setup  | IMG_1533.mov  | 7,900    |     TBD         |
 | M2 | disco-floor-assembly-timelapse.mov | Assembly process timelapse video            | IMG_1549.mov  |    11,000 |     TBD         |
@@ -63,20 +63,30 @@ The following files are in [public/photos/](public/photos/) directory.
 | M7 | final-performance-demo.mov         | Final performance demonstration video       | IMG_1950.mov  |    27,000 |     TBD         |
 |------------------------------------|---------------------------------------------|---------------|-----------:|----------------:|
 
-## Detailed Descriptions (30-35 words)
+## Detailed Descriptions - Photos (30-35 words)
 
 1. **workshop-wood-glue-clamping.jpg** — Bar clamps tightening a wood glue-up on a workbench in the workshop. Glue is dripping from the joint between pieces of light-colored lumber. A hand saw is visible in the foreground.
 2. **disco-floor-partial-assembly.jpg** — Partially assembled disco floor grid frame on workshop floor, painted white. Some cells have RGB LED modules mounted with metal strapping, while others remain empty. Tools, lumber scraps, and a miter saw visible in the background workspace.
-3. **unwrapping-acrylic-sheet.jpg** — Seated on the workshop floor, Melinda peels protective paper from a large acrylic sheet. The glossy surface reflects the open framing above, with tools and lumber around, preparing panels for the disco floor.
-4. **led-light-panel-wiring.jpg** — RGB LEDs being wired and tested inside a wooden frame with a glass or acrylic top. A Mean Well power supply, breadboard with microcontroller, and wiring harness are visible on the bench.
-5. **led-wire-soldering-closeup.jpg** — Close-up of three stripped wires (white, green, red) held in alligator clips on a green soldering surface. The wires are being prepped for soldering LED data and power connections as part of the disco floor build.
-6. **disco-floor-grid-led-assembly.jpg** — Full view of the disco floor grid frame from above, painted white, with individual RGB LED modules mounted in each cell using metal strapping. Workshop with parts drawers and tool chest in the background.
-7. **acrylic-sheet-on-floor.jpg** — A large acrylic sheet laid flat on the workshop floor after being unwrapped, showing the glossy surface. The protective film has been removed, revealing the clear material that will serve as the top panels for the disco floor cells.
-8. **acrylic-sheet-measuring-marks.jpg** — Measuring and marking cut lines on the large acrylic sheet using a straightedge and marker. Grid lines are being drawn to mark where the acrylic will be cut into individual panels for the disco floor grid cells.
-9. **acrylic-sheet-cutting-prep.jpg** — Acrylic sheet positioned on the workshop table with cutting guides and marks visible. Preparation is underway for cutting the sheet into individual panels that will fit into the grid frame assembly.
-10. **workshop-assembly-prep.jpg** — Workshop table organized with cut acrylic panels, wooden frame pieces, and assembly materials staged for the next phase of disco floor construction.
-11. **acrylic-panels-stacked.jpg** — Stack of cut acrylic panels arranged on the workshop surface, ready to be installed as transparent tops for the RGB LED cells in the disco floor grid.
-12. **disco-floor-lights-hello-world.mov** — Seven-second video of the completed light panel running in a darkened room. Each cell in the grid glows a different color — reds, blues, greens, pinks, teals — with colors shifting and cycling through a test pattern.
+3. **acrylic-prep-closeup.jpg** — Close-up of acrylic material preparation in the workshop showing measurement and setup for the disco floor panel production phase.
+4. **unwrapping-acrylic-sheet.jpg** — Seated on the workshop floor, Melinda peels protective paper from a large acrylic sheet. The glossy surface reflects the open framing above, with tools and lumber around, preparing panels for the disco floor.
+5. **acrylic-sheet-on-floor.jpg** — A large acrylic sheet laid flat on the workshop floor after being unwrapped, showing the glossy surface. The protective film has been removed, revealing the clear material that will serve as the top panels for the disco floor cells.
+6. **acrylic-sheet-measuring-marks.jpg** — Measuring and marking cut lines on the large acrylic sheet using a straightedge and marker. Grid lines are being drawn to mark where the acrylic will be cut into individual panels for the disco floor grid cells.
+7. **acrylic-sheet-cutting-prep.jpg** — Acrylic sheet positioned on the workshop table with cutting guides and marks visible. Preparation is underway for cutting the sheet into individual panels that will fit into the grid frame assembly.
+8. **workshop-assembly-prep.jpg** — Workshop table organized with cut acrylic panels, wooden frame pieces, and assembly materials staged for the next phase of disco floor construction.
+9. **acrylic-panels-stacked.jpg** — Stack of cut acrylic panels arranged on the workshop surface, ready to be installed as transparent tops for the RGB LED cells in the disco floor grid.
+10. **acrylic-sheet-assembly.jpg** — Acrylic panels in assembly process showing how individual cut panels are positioned and prepared for installation in the grid frame structure.
+11. **led-soldering-station.jpg** — LED soldering work at bench station with components, solder, and tools arranged for precise electrical connections in the disco floor circuitry.
+12. **led-wiring-detail.jpg** — Detail of LED wiring connections showing how power and data lines are carefully routed and connected between LED modules in the grid assembly.
+
+## Detailed Descriptions - Movies (30-35 words)
+
+M1. **disco-floor-lights-motion.mov** — Early motion test of disco floor LED setup showing initial color cycling and responsiveness of the LED modules to control signals.
+M2. **disco-floor-assembly-timelapse.mov** — Assembly process timelapse video documenting the construction progression from individual components to completed grid structure over several hours.
+M3. **led-testing-sequence.mov** — LED testing color sequence video showing systematic testing of color accuracy, brightness levels, and color mixing capabilities of the installed LEDs.
+M4. **configuration-demo.mov** — Configuration demonstration video showing how the LED control software interfaces with the hardware for programmable pattern and color settings.
+M5. **disco-floor-full-sequence.mov** — Full disco floor light sequence video demonstrating complete animation patterns, synchronized color changes, and dynamic effects across the entire grid system.
+M6. **display-animation-test.mov** — Display animation test video showing complex animation sequences running on the disco floor with smooth transitions between different pattern states.
+M7. **final-performance-demo.mov** — Final performance demonstration video of the completed disco floor in operation showing full capabilities and readiness for the bachelorette party event.
 
 ## Creation Dates
 
@@ -133,11 +143,11 @@ If filenames ever get corrupted, this internal information can be used to identi
 | 42 | IMG_1956.jpeg     | 2022:05:22 00:53:02       |
 | 43 | IMG_1957.jpeg     | 2022:05:22 00:58:09       |
 | 44 | IMG_1958.jpeg     | 2022:05:22 01:16:25       |
-| 45 | IMG_1959.jpeg     | 2022:05:22 02:18:49       |
-| 46 | IMG_1961.jpeg     | 2022:05:22 02:21:26       |
-| 47 | IMG_1962.jpeg     | 2022:05:22 02:33:07       |
-| 48 | IMG_1972.jpeg     | 2022:05:22 03:04:07       |
-| 49 | IMG_9465.jpeg     | 2024:04:21 20:29:27       |
+| 44 | IMG_1959.jpeg     | 2022:05:22 02:18:49       |
+| 45 | IMG_1961.jpeg     | 2022:05:22 02:21:26       |
+| 46 | IMG_1962.jpeg     | 2022:05:22 02:33:07       |
+| 47 | IMG_1972.jpeg     | 2022:05:22 03:04:07       |
+| 48 | IMG_9465.jpeg     | 2024:04:21 20:29:27       |
 
 ### Movies
 
