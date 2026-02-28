@@ -65,18 +65,18 @@ The following files are in [public/photos/](public/photos/) directory.
 
 ## Detailed Descriptions - Photos (30-35 words)
 
-1. **workshop-wood-glue-clamping.jpg** — Bar clamps tightening a wood glue-up on a workbench in the workshop. Glue is dripping from the joint between pieces of light-colored lumber. A hand saw is visible in the foreground.
-2. **disco-floor-partial-assembly.jpg** — Partially assembled disco floor grid frame on workshop floor, painted white. Some cells have RGB LED modules mounted with metal strapping, while others remain empty. Tools, lumber scraps, and a miter saw visible in the background workspace.
-3. **acrylic-prep-closeup.jpg** — Close-up of acrylic material preparation in the workshop showing measurement and setup for the disco floor panel production phase.
-4. **unwrapping-acrylic-sheet.jpg** — Seated on the workshop floor, Melinda peels protective paper from a large acrylic sheet. The glossy surface reflects the open framing above, with tools and lumber around, preparing panels for the disco floor.
-5. **acrylic-sheet-on-floor.jpg** — A large acrylic sheet laid flat on the workshop floor after being unwrapped, showing the glossy surface. The protective film has been removed, revealing the clear material that will serve as the top panels for the disco floor cells.
-6. **acrylic-sheet-measuring-marks.jpg** — Measuring and marking cut lines on the large acrylic sheet using a straightedge and marker. Grid lines are being drawn to mark where the acrylic will be cut into individual panels for the disco floor grid cells.
-7. **acrylic-sheet-cutting-prep.jpg** — Acrylic sheet positioned on the workshop table with cutting guides and marks visible. Preparation is underway for cutting the sheet into individual panels that will fit into the grid frame assembly.
-8. **workshop-assembly-prep.jpg** — Workshop table organized with cut acrylic panels, wooden frame pieces, and assembly materials staged for the next phase of disco floor construction.
-9. **acrylic-panels-stacked.jpg** — Stack of cut acrylic panels arranged on the workshop surface, ready to be installed as transparent tops for the RGB LED cells in the disco floor grid.
-10. **acrylic-sheet-assembly.jpg** — Acrylic panels in assembly process showing how individual cut panels are positioned and prepared for installation in the grid frame structure.
-11. **led-soldering-station.jpg** — LED soldering work at bench station with components, solder, and tools arranged for precise electrical connections in the disco floor circuitry.
-12. **led-wiring-detail.jpg** — Detail of LED wiring connections showing how power and data lines are carefully routed and connected between LED modules in the grid assembly.
+P1. **workshop-wood-glue-clamping.jpg** — Bar clamps tightening a wood glue-up on a workbench in the workshop. Glue is dripping from the joint between pieces of light-colored lumber. A hand saw is visible in the foreground.
+P2. **disco-floor-partial-assembly.jpg** — Partially assembled disco floor grid frame on workshop floor, painted white. Some cells have RGB LED modules mounted with metal strapping, while others remain empty. Tools, lumber scraps, and a miter saw visible in the background workspace.
+P3. **acrylic-prep-closeup.jpg** — Close-up of acrylic material preparation in the workshop showing measurement and setup for the disco floor panel production phase.
+P4. **unwrapping-acrylic-sheet.jpg** — Seated on the workshop floor, Melinda peels protective paper from a large acrylic sheet. The glossy surface reflects the open framing above, with tools and lumber around, preparing panels for the disco floor.
+P5. **acrylic-sheet-on-floor.jpg** — A large acrylic sheet laid flat on the workshop floor after being unwrapped, showing the glossy surface. The protective film has been removed, revealing the clear material that will serve as the top panels for the disco floor cells.
+P6. **acrylic-sheet-measuring-marks.jpg** — Measuring and marking cut lines on the large acrylic sheet using a straightedge and marker. Grid lines are being drawn to mark where the acrylic will be cut into individual panels for the disco floor grid cells.
+P7. **acrylic-sheet-cutting-prep.jpg** — Acrylic sheet positioned on the workshop table with cutting guides and marks visible. Preparation is underway for cutting the sheet into individual panels that will fit into the grid frame assembly.
+P8. **workshop-assembly-prep.jpg** — Workshop table organized with cut acrylic panels, wooden frame pieces, and assembly materials staged for the next phase of disco floor construction.
+P9. **acrylic-panels-stacked.jpg** — Stack of cut acrylic panels arranged on the workshop surface, ready to be installed as transparent tops for the RGB LED cells in the disco floor grid.
+P10. **acrylic-sheet-assembly.jpg** — Acrylic panels in assembly process showing how individual cut panels are positioned and prepared for installation in the grid frame structure.
+P11. **led-soldering-station.jpg** — LED soldering work at bench station with components, solder, and tools arranged for precise electrical connections in the disco floor circuitry.
+P12. **led-wiring-detail.jpg** — Detail of LED wiring connections showing how power and data lines are carefully routed and connected between LED modules in the grid assembly.
 
 ## Detailed Descriptions - Movies (30-35 words)
 
@@ -97,7 +97,7 @@ If filenames ever get corrupted, this internal information can be used to identi
 
 ### Photos
 
-| # | Original Filename | Creation Date             |
+| ID | Original Filename | Creation Date             |
 |---|-------------------|---------------------------|
 | P1 | IMG_1530.jpeg     | 2022:04:22 17:39:46       |
 | P2 | IMG_1534.jpeg     | 2022:04:22 18:13:30       |
