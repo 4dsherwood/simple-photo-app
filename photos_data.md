@@ -18,7 +18,7 @@ The following files are in [public/photos/](public/photos/) directory.
 | P10 | acrylic-sheet-assembly.jpg         | Acrylic panels in assembly process          | IMG_1554.jpeg |        626 |     TBD         |
 | P11 | led-soldering-station.jpg          | LED soldering work at bench station         | IMG_1591.jpeg |        601 |     TBD         |
 | P12 | led-wiring-detail.jpg              | Detail of LED wiring connections            | IMG_1594.jpeg |        536 |     TBD         |
-| P13 | led-assembly-components.jpg        | LED assembly components and materials       | IMG_1595.jpeg |        471 |     TBD         |
+| P13 | person-soldering-led-connections.jpg | Person soldering LED connections at workbench | IMG_1595.jpeg |        471 |     1600 x 1200 |
 | P14 | breadboard-configuration.jpg       | Breadboard setup for LED control            | IMG_1596.jpeg |        303 |     TBD         |
 | P15 | wiring-connections-detail.jpg      | Close-up of wiring connection details       | IMG_1598.jpeg |        286 |     TBD         |
 | P16 | led-power-supply-setup.jpg         | Power supply and wiring arrangement         | IMG_1600.jpeg |        628 |     TBD         |
@@ -77,6 +77,7 @@ P9. **acrylic-panels-stacked.jpg** — Stack of cut acrylic panels arranged on t
 P10. **acrylic-sheet-assembly.jpg** — Acrylic panels in assembly process showing how individual cut panels are positioned and prepared for installation in the grid frame structure.
 P11. **led-soldering-station.jpg** — LED soldering work at bench station with components, solder, and tools arranged for precise electrical connections in the disco floor circuitry.
 P12. **led-wiring-detail.jpg** — Detail of LED wiring connections showing how power and data lines are carefully routed and connected between LED modules in the grid assembly.
+P13. **person-soldering-led-connections.jpg** — A person solders LED connections at a workbench, carefully joining electrical components with a soldering iron. The work surface shows organized supplies and tools needed for precision electronics assembly in the disco floor LED grid construction.
 
 ## Detailed Descriptions - Movies (30-35 words)
 
