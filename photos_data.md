@@ -19,11 +19,11 @@ The following files are in [public/photos/](public/photos/) directory.
 | P11 | led-soldering-station.jpg          | LED soldering work at bench station         | IMG_1591.jpeg |        601 |     TBD         |
 | P12 | led-wiring-detail.jpg              | Detail of LED wiring connections            | IMG_1594.jpeg |        536 |     TBD         |
 | P13 | person-soldering-led-connections.jpg | Person soldering LED connections at workbench | IMG_1595.jpeg |        471 |     1600 x 1200 |
-| P14 | breadboard-configuration.jpg       | Breadboard setup for LED control            | IMG_1596.jpeg |        303 |     TBD         |
-| P15 | wiring-connections-detail.jpg      | Close-up of wiring connection details       | IMG_1598.jpeg |        286 |     TBD         |
-| P16 | led-power-supply-setup.jpg         | Power supply and wiring arrangement         | IMG_1600.jpeg |        628 |     TBD         |
-| P17 | led-panel-assembly.jpg             | LED panel being assembled in frame          | IMG_1602.jpeg |        656 |     TBD         |
-| P18 | wiring-components-detail.jpg       | Components and wiring details               | IMG_1604.jpeg |        388 |     TBD         |
+| P14 | breadboard-configuration.jpg       | Breadboard setup for LED control            | IMG_1596.jpeg |        303 |     1200 x 1600 |
+| P15 | wiring-connections-detail.jpg      | Close-up of wiring connection details       | IMG_1598.jpeg |        286 |     1600 x 1221 |
+| P16 | led-power-supply-setup.jpg         | Attaching acrylic panels to wooden frame     | IMG_1600.jpeg |        628 |     1200 x 1600 |
+| P17 | led-panel-assembly.jpg             | LED panel being assembled in frame          | IMG_1602.jpeg |        656 |     1200 x 1600 |
+| P18 | wiring-components-detail.jpg       | Components and wiring details               | IMG_1604.jpeg |        388 |     1600 x 1200 |
 | P19 | panel-construction-detail.jpg      | Detail of panel construction progress       | IMG_1606.jpeg |        566 |     TBD         |
 | P20 | frame-assembly-process.jpg         | Sanding acrylic to create frosted finish    | IMG_1609.jpeg |        457 |     TBD         |
 | P21 | led-mounting-hardware.jpg          | LED mounting and hardware setup             | IMG_1610.jpeg |        649 |     TBD         |
@@ -78,6 +78,12 @@ P10. **acrylic-sheet-assembly.jpg** — Acrylic panels in assembly process showi
 P11. **led-soldering-station.jpg** — LED soldering work at bench station with components, solder, and tools arranged for precise electrical connections in the disco floor circuitry.
 P12. **led-wiring-detail.jpg** — Detail of LED wiring connections showing how power and data lines are carefully routed and connected between LED modules in the grid assembly.
 P13. **person-soldering-led-connections.jpg** — A person solders LED connections at a workbench, carefully joining electrical components with a soldering iron. The work surface shows organized supplies and tools needed for precision electronics assembly in the disco floor LED grid construction.
+P14. **breadboard-configuration.jpg** — Breadboard with LED control circuitry arranged and configured for testing. Various jumper wires, resistors, and components connect to control the RGB LED modules during the development and testing phase of the disco floor system.
+P15. **wiring-connections-detail.jpg** — Close-up detail of wiring connections showing precisely routed power and data lines. Individual wire connections are carefully positioned to ensure proper signal transmission and power distribution in the LED grid assembly.
+P16. **led-power-supply-setup.jpg** — Acrylic panels being attached to the wooden frame structure of the disco floor. The assembly process shows how individual acrylic sheets are secured to the frame using hardware, creating the transparent grid structure.
+P17. **led-panel-assembly.jpg** — LED panel being assembled in its frame structure. Individual LED modules and wiring are positioned and connected within the frame assembly, demonstrating the progressive construction of the grid system.
+P18. **wiring-components-detail.jpg** — Detail of various wiring components including connectors, wire gauges, and terminal blocks arranged for assembly. The organized layout shows the precision required for electrical connections in the disco floor LED control and power system.
+P20. **frame-assembly-process.jpg** — Sanding acrylic to create a frosted finish on the panels. The surface preparation work improves light diffusion and visual quality of the disco floor LED display.
 
 ## Detailed Descriptions - Movies (30-35 words)
 
