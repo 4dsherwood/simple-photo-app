@@ -50,12 +50,18 @@ export default function DiscoStory() {
   return (
     <div className="max-w-4xl mx-auto">
       {/* Navigation Link */}
-      <div className="px-4 pt-6 pb-2">
+      <div className="px-4 pt-6 pb-2 flex flex-wrap items-center gap-3">
         <Link 
           href="/story2" 
           className="text-blue-600 hover:text-blue-800 underline text-sm"
         >
           View Story 2
+        </Link>
+        <Link 
+          href="/photo-index" 
+          className="text-blue-600 hover:text-blue-800 underline text-sm"
+        >
+          View Photo Index
         </Link>
       </div>
 
