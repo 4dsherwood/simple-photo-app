@@ -8,64 +8,65 @@ The following files are in [public/photos/](public/photos/) directory.
 |-----|--------------------------------------|-------------------------------------------------|-------------------|----------:|----------------:|
 | P1  | workshop-wood-glue-clamping.jpg      | Clamping a wood glue-up                         | IMG_1530.jpeg     |       534 |     1600 x 1200 |
 | P2  | disco-floor-partial-assembly.jpg     | Partially assembled disco floor with some LEDs  | IMG_1534.jpeg     |       492 |     1600 x 1200 |
-| P3  | acrylic-prep-closeup.jpg             | Close-up of acrylic material preparation        | IMG_1535.jpeg     |       416 |             TBD |
+| P3  | acrylic-prep-closeup.jpg             | Close-up of acrylic material preparation        | IMG_1535.jpeg     |       416 |     1200 x 1600 |
 | P4  | unwrapping-acrylic-sheet.jpg         | Unwrapping acrylic sheet on workshop floor      | IMG_1543.jpeg     |       646 |     1600 x 1200 |
-| P5  | acrylic-sheet-on-floor.jpg           | Large acrylic sheet laid flat on workshop floor | IMG_1544.jpeg     |       471 |     1600 x 1200 |
+| P5  | acrylic-sheet-on-floor.jpg           | Large acrylic sheet laid flat on workshop floor | IMG_1544.jpeg     |       471 |     1200 x 1600 |
 | P6  | acrylic-sheet-measuring-marks.jpg    | Marking cut lines on large acrylic sheet        | IMG_1547.jpeg     |       563 |     1600 x 1200 |
-| P7  | acrylic-sheet-cutting-prep.jpg       | Acrylic sheet prepared and measured for cutting | IMG_1548.jpeg     |       580 |     1600 x 1200 |
-| P8  | workshop-assembly-prep.jpg           | Workshop table setup with acrylic and materials | IMG_1551.jpeg     |       726 |     1600 x 1200 |
-| P9  | acrylic-panels-stacked.jpg           | Cut acrylic panels stacked on workshop surface  | IMG_1552.jpeg     |       782 |     1600 x 1200 |
-| P10 | acrylic-sheet-assembly.jpg           | Acrylic panels in assembly process              | IMG_1554.jpeg     |       626 |             TBD |
-| P11 | led-soldering-station.jpg            | LED soldering work at bench station             | IMG_1591.jpeg     |       601 |             TBD |
-| P12 | led-wiring-detail.jpg                | Detail of LED wiring connections                | IMG_1594.jpeg     |       536 |             TBD |
+| P7  | acrylic-sheet-cutting-prep.jpg       | Acrylic sheet prepared and measured for cutting | IMG_1548.jpeg     |       580 |     1200 x 1600 |
+| P8  | workshop-assembly-prep.jpg           | Workshop table setup with acrylic and materials | IMG_1551.jpeg     |       726 |     1200 x 1600 |
+| P9  | acrylic-panels-stacked.jpg           | Cut acrylic panels stacked on workshop surface  | IMG_1552.jpeg     |       782 |     1200 x 1600 |
+| P10 | acrylic-sheet-assembly.jpg           | Acrylic panels in assembly process              | IMG_1554.jpeg     |       626 |     1600 x 1200 |
+| P11 | led-soldering-station.jpg            | LED soldering work at bench station             | IMG_1591.jpeg     |       601 |     1200 x 1600 |
+| P12 | led-wiring-detail.jpg                | Detail of LED wiring connections                | IMG_1594.jpeg     |       536 |     1200 x 1600 |
 | P13 | person-soldering-led-connections.jpg | Person soldering LED connections at workbench   | IMG_1595.jpeg     |       471 |     1600 x 1200 |
 | P14 | breadboard-configuration.jpg         | Breadboard setup for LED control                | IMG_1596.jpeg     |       303 |     1200 x 1600 |
 | P15 | wiring-connections-detail.jpg        | Close-up of wiring connection details           | IMG_1598.jpeg     |       286 |     1600 x 1221 |
 | P16 | led-power-supply-setup.jpg           | Attaching acrylic panels to wooden frame        | IMG_1600.jpeg     |       628 |     1200 x 1600 |
 | P17 | led-panel-assembly.jpg               | LED panel being assembled in frame              | IMG_1602.jpeg     |       656 |     1200 x 1600 |
 | P18 | wiring-components-detail.jpg         | Components and wiring details                   | IMG_1604.jpeg     |       388 |     1600 x 1200 |
-| P19 | panel-construction-detail.jpg        | Detail of panel construction progress           | IMG_1606.jpeg     |       566 |             TBD |
-| P20 | frame-assembly-process.jpg           | Sanding acrylic to create frosted finish        | IMG_1609.jpeg     |       457 |             TBD |
-| P21 | led-mounting-hardware.jpg            | LED mounting and hardware setup                 | IMG_1610.jpeg     |       649 |             TBD |
-| P22 | panel-grid-construction.jpg          | Grid panel construction in progress             | IMG_1611.jpeg     |       595 |             TBD |
+| P19 | panel-construction-detail.jpg        | Detail of panel construction progress           | IMG_1606.jpeg     |       566 |     1600 x 1200 |
+| P20 | frame-assembly-process.jpg           | Sanding acrylic to create frosted finish        | IMG_1609.jpeg     |       457 |     1200 x 1600 |
+| P21 | led-mounting-hardware.jpg            | LED mounting and hardware setup                 | IMG_1610.jpeg     |       649 |     1600 x 1200 |
+| P22 | panel-grid-construction.jpg          | Grid panel construction in progress             | IMG_1611.jpeg     |       595 |     1200 x 1600 |
 | P23 | disco-floor-grid-led-assembly.jpg    | Disco floor grid with LEDs mounted              | IMG_1681.jpeg     |       579 |     1200 x 1600 |
-| P24 | grid-panels-assembly.jpg             | Grid panels being assembled together            | IMG_1682.jpeg     |       573 |             TBD |
-| P25 | frame-panel-installation.jpg         | Panels being installed in frame                 | IMG_1683.jpeg     |       481 |             TBD |
-| P26 | grid-assembly-overview.jpg           | Overview of grid assembly progress              | IMG_1684.jpeg     |       612 |             TBD |
-| P27 | wiring-in-frame.jpg                  | Wiring installation in frame assembly           | IMG_1685.jpeg     |       367 |             TBD |
-| P28 | completed-frame-detail.jpg           | Detail of completed frame assembly              | IMG_1686.jpeg     |       670 |             TBD |
-| P29 | grid-final-assembly.jpg              | Final assembly of grid system                   | IMG_1687.jpeg     |       451 |             TBD |
-| P30 | finished-panels-final.jpg            | Finished panel assembly ready for testing       | IMG_1929.jpeg     |       494 |             TBD |
-| P31 | led-testing-setup.jpg                | LED testing configuration and setup             | IMG_1932.jpeg     |       563 |             TBD |
-| P32 | color-test-patterns.jpg              | Testing color patterns on LED display           | IMG_1936.jpeg     |       561 |             TBD |
-| P33 | display-brightness-test.jpg          | Testing brightness levels of LEDs               | IMG_1939.jpeg     |       595 |             TBD |
-| P34 | control-software-interface.jpg       | Control software interface for LEDs             | IMG_1940.jpeg     |       370 |             TBD |
-| P35 | night-testing-setup.jpg              | Night testing environment for LEDs              | IMG_1947.jpeg     |       517 |             TBD |
-| P36 | display-animation-sequence.jpg       | Animation sequence display testing              | IMG_1951.jpeg     |       661 |             TBD |
-| P37 | color-gradient-test.jpg              | Color gradient test pattern display             | IMG_1952.jpeg     |       608 |             TBD |
-| P38 | full-grid-illumination.jpg           | Full grid illumination during testing           | IMG_1953.jpeg     |       731 |             TBD |
-| P39 | synchronized-color-display.jpg       | Synchronized color display test                 | IMG_1955.jpeg     |       710 |             TBD |
-| P40 | led-brightness-adjustment.jpg        | Brightness adjustment testing                   | IMG_1956.jpeg     |       614 |             TBD |
-| P41 | color-mixing-effects.jpg             | Color mixing effects demonstration              | IMG_1957.jpeg     |       633 |             TBD |
-| P42 | display-pattern-sequence.jpg         | Display running pattern sequence                | IMG_1958.jpeg     |       501 |             TBD |
-| P43 | grid-performance-testing.jpg         | Grid performance during testing                 | IMG_1959.jpeg     |       595 |             TBD |
-| P44 | led-response-test.jpg                | LED response time testing                       | IMG_1961.jpeg     |       429 |             TBD |
-| P45 | system-stability-check.jpg           | System stability during operation               | IMG_1962.jpeg     |       406 |             TBD |
-| P46 | final-display-verification.jpg       | Final display verification and testing          | IMG_1972.jpeg     |       706 |             TBD |
-| P47 | prototype-photo-detail.jpg           | Acrylic panels with metal strapping detail      | IMG_9465.jpeg     |       129 |             TBD |
-| P48 | prepping-wires-led-connections.jpg   | Prepping wires for LED connections              | IMG_1597.jpeg     |       TBD |             TBD |
-| P49 | wiring-connections-alternate.jpg     | Alternate angle of wiring connection details    | IMG_1598 (1).jpeg |       TBD |             TBD |
-| P50 | disco-floor-grid-preparation.jpg     | Disco floor grid preparation phase              | IMG_1680.jpeg     |       TBD |             TBD |
-|-----|--------------------------------------|-------------------------------------------------|-------------------|----------:|----------------:|
-| M1  | disco-floor-lights-motion.mov        | Early motion test of disco floor LED setup      | IMG_1533.mov      |     7,900 |             TBD |
-| M2  | disco-floor-assembly-timelapse.mov   | Assembly process timelapse video                | IMG_1549.mov      |    11,000 |             TBD |
-| M3  | led-testing-sequence.mov             | LED testing color sequence video                | IMG_1601.mov      |     7,400 |             TBD |
-| M4  | configuration-demo.mov               | Configuration demonstration video               | IMG_1617.mov      |     1,800 |             TBD |
-| M5  | disco-floor-full-sequence.mov        | Full disco floor light sequence video           | IMG_1624.mov      |     9,000 |             TBD |
-| M6  | display-animation-test.mov           | Display animation test video                    | IMG_1948.mov      |     6,900 |             TBD |
-| M7  | final-performance-demo.mov           | Final performance demonstration video           | IMG_1950.mov      |    27,000 |             TBD |
-| M8  | led-panel-demo.mov                   | LED panel demonstration video                   | IMG_1616.mov      |       TBD |             TBD |
-|-----|--------------------------------------|-------------------------------------------------|-------------------|----------:|----------------:|
+| P24 | grid-panels-assembly.jpg             | Grid panels being assembled together            | IMG_1682.jpeg     |       573 |     1200 x 1600 |
+| P25 | frame-panel-installation.jpg         | Panels being installed in frame                 | IMG_1683.jpeg     |       481 |     1200 x 1600 |
+| P26 | grid-assembly-overview.jpg           | Overview of grid assembly progress              | IMG_1684.jpeg     |       612 |     1200 x 1600 |
+| P27 | wiring-in-frame.jpg                  | Wiring installation in frame assembly           | IMG_1685.jpeg     |       367 |     1600 x 1200 |
+| P28 | completed-frame-detail.jpg           | Detail of completed frame assembly              | IMG_1686.jpeg     |       670 |     1600 x 1200 |
+| P29 | grid-final-assembly.jpg              | Final assembly of grid system                   | IMG_1687.jpeg     |       451 |     1200 x 1600 |
+| P30 | finished-panels-final.jpg            | Finished panel assembly ready for testing       | IMG_1929.jpeg     |       494 |     1200 x 1600 |
+| P31 | led-testing-setup.jpg                | LED testing configuration and setup             | IMG_1932.jpeg     |       563 |     1600 x 1200 |
+| P32 | color-test-patterns.jpg              | Testing color patterns on LED display           | IMG_1936.jpeg     |       561 |     1600 x 1200 |
+| P33 | display-brightness-test.jpg          | Testing brightness levels of LEDs               | IMG_1939.jpeg     |       595 |     1600 x 1200 |
+| P34 | control-software-interface.jpg       | Control software interface for LEDs             | IMG_1940.jpeg     |       370 |     1200 x 1600 |
+| P35 | night-testing-setup.jpg              | Night testing environment for LEDs              | IMG_1947.jpeg     |       517 |     1600 x 1200 |
+| P36 | display-animation-sequence.jpg       | Animation sequence display testing              | IMG_1951.jpeg     |       661 |     1600 x 1200 |
+| P37 | color-gradient-test.jpg              | Color gradient test pattern display             | IMG_1952.jpeg     |       608 |     1600 x 1200 |
+| P38 | full-grid-illumination.jpg           | Full grid illumination during testing           | IMG_1953.jpeg     |       731 |     1200 x 1600 |
+| P39 | synchronized-color-display.jpg       | Synchronized color display test                 | IMG_1955.jpeg     |       710 |     1600 x 1200 |
+| P40 | led-brightness-adjustment.jpg        | Brightness adjustment testing                   | IMG_1956.jpeg     |       614 |     1200 x 1600 |
+| P41 | color-mixing-effects.jpg             | Color mixing effects demonstration              | IMG_1957.jpeg     |       633 |     1200 x 1600 |
+| P42 | display-pattern-sequence.jpg         | Display running pattern sequence                | IMG_1958.jpeg     |       501 |     1200 x 1600 |
+| P43 | grid-performance-testing.jpg         | Grid performance during testing                 | IMG_1959.jpeg     |       595 |     1600 x 1200 |
+| P44 | led-response-test.jpg                | LED response time testing                       | IMG_1961.jpeg     |       429 |     1600 x 1200 |
+| P45 | system-stability-check.jpg           | System stability during operation               | IMG_1962.jpeg     |       406 |     1200 x 1600 |
+| P46 | final-display-verification.jpg       | Final display verification and testing          | IMG_1972.jpeg     |       706 |     1600 x 1200 |
+| P47 | prototype-photo-detail.jpg           | Acrylic panels with metal strapping detail      | IMG_9465.jpeg     |       129 |       479 x 844 |
+| P48 | prepping-wires-led-connections.jpg   | Prepping wires for LED connections              | IMG_1597.jpeg     |       TBD |     1200 x 1600 |
+| P49 | wiring-connections-alternate.jpg     | Alternate angle of wiring connection details    | IMG_1598 (1).jpeg |       TBD |     1200 x 1600 |
+| P50 | disco-floor-grid-preparation.jpg     | Disco floor grid preparation phase              | IMG_1680.jpeg     |       TBD |     1200 x 1600 |
+
+| ID  | New Name                             | Description  (5-8 words)                        | Original Name | Size (KB) | Duration |
+|-----|--------------------------------------|-------------------------------------------------|---------------|----------:|---------:|
+| M1  | disco-floor-lights-motion.mov        | Early motion test of disco floor LED setup      | IMG_1533.mov  |     7,900 |     0:09 |
+| M2  | disco-floor-assembly-timelapse.mov   | Assembly process timelapse video                | IMG_1549.mov  |    11,000 |     0:12 |
+| M3  | led-testing-sequence.mov             | LED testing color sequence video                | IMG_1601.mov  |     7,400 |     0:08 |
+| M4  | configuration-demo.mov               | Configuration demonstration video               | IMG_1617.mov  |     1,800 |     0:08 |
+| M5  | disco-floor-full-sequence.mov        | Full disco floor light sequence video           | IMG_1624.mov  |     9,000 |     0:11 |
+| M6  | display-animation-test.mov           | Display animation test video                    | IMG_1948.mov  |     6,900 |     0:08 |
+| M7  | final-performance-demo.mov           | Final performance demonstration video           | IMG_1950.mov  |    27,000 |     0:31 |
+| M8  | led-panel-demo.mov                   | LED panel demonstration video                   | IMG_1616.mov  |       TBD |     0:07 |
 
 ## Detailed Descriptions - Photos (30-35 words)
 
