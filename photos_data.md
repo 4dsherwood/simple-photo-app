@@ -57,16 +57,16 @@ The following files are in [public/photos/](public/photos/) directory.
 | P49 | wiring-connections-alternate.jpg     | Alternate angle of wiring connection details    | IMG_1598 (1).jpeg |       TBD |     1200 x 1600 |
 | P50 | disco-floor-grid-preparation.jpg     | Disco floor grid preparation phase              | IMG_1680.jpeg     |       TBD |     1200 x 1600 |
 
-| ID  | New Name                             | Description  (5-8 words)                        | Original Name | Size (KB) | Duration |
-|-----|--------------------------------------|-------------------------------------------------|---------------|----------:|---------:|
-| M1  | disco-floor-lights-motion.mov        | Early motion test of disco floor LED setup      | IMG_1533.mov  |     7,900 |     0:09 |
-| M2  | disco-floor-assembly-timelapse.mov   | Assembly process timelapse video                | IMG_1549.mov  |    11,000 |     0:12 |
-| M3  | led-testing-sequence.mov             | LED testing color sequence video                | IMG_1601.mov  |     7,400 |     0:08 |
-| M4  | configuration-demo.mov               | Configuration demonstration video               | IMG_1617.mov  |     1,800 |     0:08 |
-| M5  | disco-floor-full-sequence.mov        | Full disco floor light sequence video           | IMG_1624.mov  |     9,000 |     0:11 |
-| M6  | display-animation-test.mov           | Display animation test video                    | IMG_1948.mov  |     6,900 |     0:08 |
-| M7  | final-performance-demo.mov           | Final performance demonstration video           | IMG_1950.mov  |    27,000 |     0:31 |
-| M8  | led-panel-demo.mov                   | LED panel demonstration video                   | IMG_1616.mov  |       TBD |     0:07 |
+| ID | New Name                           | Description  (5-8 words)                   | Original Name | Size (KB) | Duration |
+|----|------------------------------------|--------------------------------------------|---------------|----------:|---------:|
+| M1 | disco-floor-lights-motion.mov      | Early motion test of disco floor LED setup | IMG_1533.mov  |     7,900 |     0:09 |
+| M2 | disco-floor-assembly-timelapse.mov | Assembly process timelapse video           | IMG_1549.mov  |    11,000 |     0:12 |
+| M3 | led-testing-sequence.mov           | LED testing color sequence video           | IMG_1601.mov  |     7,400 |     0:08 |
+| M4 | configuration-demo.mov             | Configuration demonstration video          | IMG_1617.mov  |     1,800 |     0:08 |
+| M5 | disco-floor-full-sequence.mov      | Full disco floor light sequence video      | IMG_1624.mov  |     9,000 |     0:11 |
+| M6 | display-animation-test.mov         | Display animation test video               | IMG_1948.mov  |     6,900 |     0:08 |
+| M7 | final-performance-demo.mov         | Final performance demonstration video      | IMG_1950.mov  |    27,000 |     0:31 |
+| M8 | led-panel-demo.mov                 | LED panel demonstration video              | IMG_1616.mov  |       TBD |     0:07 |
 
 ## Detailed Descriptions - Photos (30-35 words)
 
