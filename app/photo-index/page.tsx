@@ -74,12 +74,6 @@ const photos = [
     caption: 'Breadboard setup for LED control',
   },
   {
-    fileName: 'IMG_1597.jpeg',
-    id: 'P24',
-    caption: 'Prepping wires for LED connections',
-  },
-  { fileName: 'IMG_1598 (1).jpeg' },
-  {
     fileName: 'IMG_1598.jpeg',
     id: 'P15',
     caption: 'Close-up of wiring connection details',
@@ -119,7 +113,6 @@ const photos = [
     id: 'P22',
     caption: 'Grid panel construction in progress',
   },
-  { fileName: 'IMG_1680.jpeg' },
   {
     fileName: 'IMG_1681.jpeg',
     id: 'P23',
@@ -245,17 +238,32 @@ const photos = [
     id: 'P47',
     caption: 'Acrylic panels with metal strapping detail',
   },
+  {
+    fileName: 'IMG_1597.jpeg',
+    id: 'P48',
+    caption: 'Prepping wires for LED connections',
+  },
+  {
+    fileName: 'IMG_1598 (1).jpeg',
+    id: 'P49',
+    caption: 'Alternate angle of wiring connection details',
+  },
+  {
+    fileName: 'IMG_1680.jpeg',
+    id: 'P50',
+    caption: 'Disco floor grid preparation phase',
+  },
 ];
 
 const videos = [
-  'IMG_1533.mov',
-  'IMG_1549.mov',
-  'IMG_1601.mov',
-  'IMG_1616.mov',
-  'IMG_1617.mov',
-  'IMG_1624.mov',
-  'IMG_1948.mov',
-  'IMG_1950.mov',
+  { fileName: 'IMG_1533.mov', id: 'M1' },
+  { fileName: 'IMG_1549.mov', id: 'M2' },
+  { fileName: 'IMG_1601.mov', id: 'M3' },
+  { fileName: 'IMG_1617.mov', id: 'M4' },
+  { fileName: 'IMG_1624.mov', id: 'M5' },
+  { fileName: 'IMG_1948.mov', id: 'M6' },
+  { fileName: 'IMG_1950.mov', id: 'M7' },
+  { fileName: 'IMG_1616.mov', id: 'M8' },
 ];
 
 export default function PhotoIndexPage() {
@@ -327,7 +335,7 @@ export default function PhotoIndexPage() {
             <span className="text-sm text-gray-500">{videos.length} files</span>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-            {videos.map((fileName) => (
+            {videos.map(({ fileName, id }) => (
               <figure key={fileName} className="flex flex-col">
                 <video
                   src={`${basePath}/photos/${encodeURIComponent(fileName)}`}
@@ -337,6 +345,7 @@ export default function PhotoIndexPage() {
                 />
                 <figcaption className="text-xs text-gray-600 mt-2 break-words">
                   {fileName}
+                  {id && <span className="block text-gray-500">{id}</span>}
                 </figcaption>
               </figure>
             ))}
